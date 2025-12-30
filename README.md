@@ -236,7 +236,3 @@ The analyzer supports:
 5. Open a Pull Request
 
 ---
-
-<p align="center">
-  Made with ❤️ by MotivityLabs
-</p>
