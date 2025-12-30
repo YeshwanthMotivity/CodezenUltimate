@@ -22,7 +22,8 @@ CodezenUltimate is an intelligent code review and refactoring tool that analyzes
 
 ## Architecture
 
-<img width="1430" height="720" alt="image" src="https://github.com/user-attachments/assets/9d32baab-ad76-4230-b23f-fca09c59155b" />
+<img width="1430" height="720" alt="image" src="https://github.com/user-attachments/assets/d4f3ae3a-5d24-4903-a373-af7988fad7e2" />
+
 
 ---
 
