@@ -6,11 +6,10 @@ CodezenUltimate is an intelligent code review and refactoring tool that analyzes
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green)
-![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Multi-Language Support** - Analyzes Python, JavaScript, TypeScript, and Java files
 - **Intelligent Analysis** - Detects code issues, style violations, dead code, and logic bugs
@@ -21,31 +20,13 @@ CodezenUltimate is an intelligent code review and refactoring tool that analyzes
 
 ---
 
-## 📐 Architecture
+## Architecture
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                        CodezenUltimate                          │
-├─────────────────────┬───────────────────────────────────────────┤
-│                     │                                           │
-│   ┌─────────────┐   │   ┌──────────────────────────────────┐   │
-│   │  CLI Tool   │───┼──▶│        FastAPI Backend          │   │
-│   │  (codezen)  │   │   │                                  │   │
-│   └─────────────┘   │   │  ┌────────────┐ ┌─────────────┐  │   │
-│                     │   │  │ LLM Client │ │ GitHub App  │  │   │
-│                     │   │  └─────┬──────┘ └──────┬──────┘  │   │
-│                     │   └────────┼───────────────┼─────────┘   │
-│                     │            │               │              │
-│                     │   ┌────────▼────────┐ ┌────▼─────────┐   │
-│                     │   │  Gemini / LM    │ │   GitHub     │   │
-│                     │   │    Studio       │ │   REST API   │   │
-│                     │   └─────────────────┘ └──────────────┘   │
-└─────────────────────┴───────────────────────────────────────────┘
-```
+<img width="1430" height="720" alt="image" src="https://github.com/user-attachments/assets/9d32baab-ad76-4230-b23f-fca09c59155b" />
 
 ---
 
-## 🛠️ Installation
+## Installation
 
 ### Prerequisites
 
@@ -87,7 +68,7 @@ codezen --help
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 ### Backend Configuration
 
@@ -162,7 +143,7 @@ codezen status
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 | Endpoint | Method | Description |
 |----------|--------|-------------|
@@ -175,7 +156,7 @@ codezen status
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 CodezenUltimate/
@@ -198,7 +179,7 @@ CodezenUltimate/
 
 ---
 
-## 🔧 Development
+## Development
 
 ### Running in Development Mode
 
@@ -221,7 +202,7 @@ The analyzer supports:
 
 ---
 
-## 🌟 How It Works
+## How It Works
 
 1. **Initialize** - Run `codezen init` to register your repo with the CodeZen GitHub App
 2. **Analyze** - Run `codezen analyze` to scan your code for issues
@@ -231,28 +212,21 @@ The analyzer supports:
 
 ---
 
-## 🔐 Security
+## Security
 
 - Private keys and credentials are stored locally in `.env`
 - GitHub tokens are short-lived and refreshed automatically
 - All communication uses HTTPS
 - Supports local LLM deployment for sensitive codebases
+---
+
+## Authors
+
+- **Yeshwanth Goud** - [MotivityLabs](https://motivitylabs.com)
 
 ---
 
-## 📜 License
-
-MIT License - See [LICENSE](LICENSE) for details.
-
----
-
-## 👥 Authors
-
-- **Yeshwanth Goud** - *Initial work* - [MotivityLabs](https://motivitylabs.com)
-
----
-
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
